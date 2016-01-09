@@ -12,9 +12,11 @@ def main():
     print("**********************************************")
     print()
     print("This will convert Fahrenheit to Celsius")
+    print()
 
     # Ask user to enter Fahrenheit
     fahrenheit = eval(input("Enter Fahrenheit degree: "))
+    print()
 
     # Convert it to celsius using the formula stated in the comment
     celsius = (fahrenheit-32) * (5/9)
