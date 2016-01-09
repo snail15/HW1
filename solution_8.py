@@ -21,4 +21,4 @@ def main():
 
     # Print outcome
     print(fahrenheit, "fahrenheit degree is", celsius, "celsius degree.")
-    
+main()
