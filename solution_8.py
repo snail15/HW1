@@ -18,6 +18,7 @@ def main():
 
     # Convert it to celsius using the formula stated in the comment
     celsius = (fahrenheit-32) * (5/9)
+    round(celsius,2)
 
     # Print outcome
     print(fahrenheit, "fahrenheit degree is", celsius, "celsius degree.")
